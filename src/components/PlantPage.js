@@ -7,7 +7,7 @@ function PlantPage({plants, setPlants}) {
   const [search, setSearch] = useState("")
 
   // console.log(plants)
-
+  
   return (
     <main>
       <NewPlantForm plants={plants} setPlants={setPlants}/>

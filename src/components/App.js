@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     fetch("http://localhost:6001/plants")
     .then(response => response.json())
-    .then(data => setPlants(data))
+    .then(plantsData => setPlants(plantsData))
     }, [])
     
     // console.log(plants)
